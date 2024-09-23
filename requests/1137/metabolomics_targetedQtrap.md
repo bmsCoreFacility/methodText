@@ -1,0 +1,12 @@
+# Example text for manuscripts <!-- omit in toc -->
+
+This document contains example text for a targeted metabolomics run performed in the BMS. 
+
+## Method text
+
+Powdered hydrolysate was reconstituted in water at a concentration of 1ug/uL. From this resuspension, 20uL of solution was used for metabolite extraction. Metabolites were extracted through the addition of 80uL of extraction solution (50/50 methanol/ethanol containing 5uL of a 2X diluted isotope labeled amino acid standard - Cambridge Isotopes, CAT#MSK-A2). Mixtures were incubated at -20C for 1 hour and centrifuged at 12,000g to recover the supernatant. At this stage, to generate a pooled sample, 20uL of each sample was transferred to a separate tube. The supernatant was dried in a SpeedVac centrifuge and reconstituted in 250uL of water. From each sample 10uL of the reconstituted mixture was diluted with 90uL of acetonitrile, centrifuged at 12,000g, and transferred to a vial for MS analysis. The reconstitution volume was based on a dilution level determined by prior analysis of the pooled sample. Samples were analyzed using a HILIC chromatography gradient (A = 1mM ammonium formate, pH 4 in water; B = 1mM ammonium formate, pH 4 in 90% acetonitrile) on a QTrap5500 MS system.
+
+MS Data Acquisition
+
+Targeted mass spectrometry analysis was carried out on a QTRAP5500 instrument interfaced to an Agilent 1290 Infinity II liquid chromatography (LC) system. For analysis, metabolite samples were directly separated by an analytical column (2.1mm x 150mm, ACQUITY Premier BEH Amide 1.7um, Waters). The gradient ramped from an initial starting condition of 100% mobile phase B (1mM ammonium formate, pH 4, in 90% acetonitrile) for 2-minutes, 92% B in 1.5 minutes, 90% B in 3.5 minutes, 78% B in 3 minutes, 65% B in 2 minutes, 2% B in 2 minutes, with column equilibration using an additional 8 minutes (22 minutes total run time, mobile phase A = 1mM ammonium formate, pH 4, in water) at a flow rate of 250uL/min. Data acquisition on the QTRAP5500 utilized a targeted selected reaction monitoring (SRM) acquisition scheme. Specifically, the QTRAP was globally set to use a positive ion spray voltage of 5500, collision gas of 5, curtain gas of 35, temperature of 450, gas 1 of 55, and a gas 2 setting of 65. The entrance potential was globally set to 10, and values for declustering potential, collision energy, cell exit potential, and scan duration were set per transition.
+
