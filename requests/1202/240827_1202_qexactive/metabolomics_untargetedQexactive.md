@@ -1,0 +1,8 @@
+# Example text for manuscripts <!-- omit in toc -->
+
+This document contains example text for an untargeted metabolomics run performed in the BMS. 
+
+## Method text
+
+Untargeted mass spectrometry analysis of extracted carotenoids was carried out on a QExactive instrument interfaced to a Vanquish liquid chromatography (LC) system. For analysis, carotenoid samples were directly separated by an analytical column (Zorbax SB-CN Rapid Resolution HD, 1.8um, 2.1x150mm, Agilent) at a flow rate of 0.2mL/min. The gradient ramped from an initial starting condition of a 2-minute hold at 60% mobile phase B (0.1 formic acid in methanol) to 95% B in 13-minutes. After a 3-minute hold at 95% B, the gradient was ramped back to the starting condition at 40% mobile phase A (0.1 formic acid in water) for a 4-minute equilibration (22-minute total runtime). Data analysis on the QExactive utilized a data-dependent acquisition scheme with global settings of 3700 for positive ion spray voltage, 300C for capillary temperature, 45 sheath gas, 15 aux gas, 2 spare gas, an S-Lens RF level of 45, and a probe heater temp of 250C. The QExactive was set to acquire MS1 scans at a resolution of 35K, an automatic gain control target (AGC) of 3e6, and a maximum injection time of 100ms across a scan range of 300 - 900m/z in positive mode. Dependent MS2 scans were triggered based on a minimum AGC target of 8e3, a dynamic exclusion setting of 10s, and inclusion of charge states 1 and 2. MS2 scans utilized an isolation window of 4m/z, 17,500 resolution, an AGC target of 1e5, a maximum injection time of 50ms, a loop count of 5, normalized collision energies of 20 and 35, and a scan range of 200 - 2000m/z. All MS1 scans were obtained in profile mode, and MS2 in centroid. 
+
